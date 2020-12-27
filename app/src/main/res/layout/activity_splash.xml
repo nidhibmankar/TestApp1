@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.SplashActivity"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/lotus"
+        android:scaleType="center"
+        android:layout_marginTop="100dp"/>
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="SEVEN LEAVES"
+        android:textColor="@color/gray"
+        android:textSize="26sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:text="Providing service to everyone"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="28sp"
+        android:layout_marginTop="50dp"
+        />
+
+</LinearLayout>
